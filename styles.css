@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    background-color: bisque;
+    width: 500px;
+    height: 300px;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: brown;
+    margin: 5px;
+    padding: 5px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+}
